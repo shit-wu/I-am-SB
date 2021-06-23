@@ -60,9 +60,9 @@ export default class AgendaScreen extends Component {
   }
 
   renderItem(item) {
-    console.log(this.state.items)
+    // console.log(this.state.items)
     const collectData = data => {
-      console.log(data);
+      // console.log(data);
       // data.name = item.name;
     };
     return (

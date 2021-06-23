@@ -17,7 +17,6 @@ import Calendars from './src/calendars/calendars';
 import User from './src/user/user';
 import Home from './src/guide/home';
 import Editor from './src/calendars/editor';
-import Rebuild from './src/calendars/rebuild';
 
 const Stack = createStackNavigator();
 
@@ -31,7 +30,6 @@ const App = () => {
         <Stack.Screen name="Caculator" component={Caculator} />
         <Stack.Screen name="Register" component={Register} />
         <Stack.Screen name="Calendars" component={Calendars} />
-        <Stack.Screen name="Rebuild" component={Rebuild} />
       </Stack.Navigator>
     </NavigationContainer>
   );
